@@ -32,7 +32,6 @@ h3 {
     font-weight: 700;
 }
 
-/* Header - Flexbox */
 .site-header {
     background-color: var(--dark-color);
     border-bottom: 2px solid var(--main-color);
@@ -73,7 +72,6 @@ h3 {
     color: var(--main-color) !important;
 }
 
-/* Home hero - positioning */
 .hero {
     position: relative;
     min-height: 520px;
@@ -123,7 +121,6 @@ h3 {
     color: var(--main-color);
 }
 
-/* Common sections */
 .section {
     padding: 60px 0;
 }
@@ -160,7 +157,6 @@ h3 {
     color: var(--gray-color);
 }
 
-/* CSS Grid requirement */
 .feature-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -189,7 +185,6 @@ h3 {
     color: var(--gray-color);
 }
 
-/* Programs */
 .program-card {
     height: 100%;
     background-color: #222222;
@@ -214,7 +209,6 @@ h3 {
     color: var(--gray-color);
 }
 
-/* Trainers - CSS Grid */
 .trainer-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -240,7 +234,6 @@ h3 {
     padding: 20px;
 }
 
-/* Membership */
 .plan-card {
     height: 100%;
 }
@@ -279,12 +272,10 @@ h3 {
     color: #111111;
 }
 
-/* nth-child requirement */
 .compare-table tbody tr:nth-child(even) {
     background-color: #2b2b2b;
 }
 
-/* Contact form */
 .contact-box {
     height: 100%;
 }
@@ -312,7 +303,6 @@ h3 {
     color: #999999;
 }
 
-/* Footer - Flexbox */
 .site-footer {
     padding: 35px 0;
     background-color: var(--dark-color);
@@ -343,7 +333,6 @@ h3 {
     color: var(--main-color);
 }
 
-/* Tablet */
 @media (max-width: 992px) {
     .header-content {
         flex-direction: column;
@@ -361,7 +350,6 @@ h3 {
     }
 }
 
-/* Mobile */
 @media (max-width: 576px) {
     .nav-list {
         flex-direction: column;
