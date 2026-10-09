@@ -105,3 +105,6 @@ The website uses Bootstrap Grid, CSS Grid, Flexbox, and media queries to adapt t
 
 On smaller screens, cards move into fewer columns and the navigation layout changes to make the website easier to use.
 
+## Web site
+
+'https://yernar122.github.io/midterm_fitness_website/membership.html'
